@@ -1,6 +1,6 @@
 ## ***Diverse Sample Generation: Pushing the Limit of Data-free Quantization***
 
-Created by [Haotong Qin](https://htqin.github.io/), [Yifu Ding](https://yifu-ding.github.io/), XiangguoZhang, [Jiakai Wang](https://jiakaiwangcn.github.io/), [Xianglong Liu](http://sites.nlsde.buaa.edu.cn/~xlliu/)*, and [Jiwen Lu](http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/) from Beihang University and Tsinghua University.
+Created by [Haotong Qin](https://htqin.github.io/), [Yifu Ding](https://yifu-ding.github.io/), XiangguoZhang, [Jiakai Wang](https://jiakaiwangcn.github.io/), [Xianglong Liu](http://sites.nlsde.buaa.edu.cn/~xlliu/)*, and [Jiwen Lu](http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/) from Beihang University and Tsinghua University. [[arXiv](https://arxiv.org/abs/2109.00212)]
 
 ![framework](figures/framework.png)
 
