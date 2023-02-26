@@ -90,20 +90,20 @@ optional arguments:
 
 The following are the results of our DSG. We also provide models quantized by DSG-PTQ for the lowest bit-width for all network architectures and their results for easy evaluation, where the $\textcolor{green}{\text{green}}$ value means the result outperforms that reported in the manuscript.
 
-| Scheme      | Model       | Dataset  | FP32  | W4A4$_\text{(GitHub)}$               | W6A6$_\text{(GitHub)}$               | W8A8  |
+| Scheme      | Model       | Dataset  | FP32  | W4A4               | W6A6               | W8A8  |
 | ----------- | ----------- | -------- | ----- | ------------------------------------ | ------------------------------------ | ----- |
-| DSG-PTQ$^*$ | ResNet18    | ImageNet | 71.47 | 39.90$_{\textcolor{green}{(40.41)}}$ | 70.46                                | 71.49 |
-|             | ResNet50    | ImageNet | 77.72 | 56.12$_{\textcolor{green}{(56.36)}}$ | 76.90                                | 77.72 |
-|             | InceptionV3 | ImageNet | 78.80 | 57.17$_{\textcolor{green}{(59.58)}}$ | 78.12                                | 78.81 |
-|             | SqueezeNext | ImageNet | 69.38 | -                                    | 66.23$_{{(66.23)}}$                  | 69.27 |
-|             | ShuffleNet  | ImageNet | 65.07 | -                                    | 60.71$_{\textcolor{green}{(60.85)}}$ | 64.87 |
+| DSG-PTQ$^*$ | ResNet18    | ImageNet | 71.47 | 39.90 ${\textcolor{green}{(40.41)}}$ | 70.46                                | 71.49 |
+|             | ResNet50    | ImageNet | 77.72 | 56.12 ${\textcolor{green}{(56.36)}}$ | 76.90                                | 77.72 |
+|             | InceptionV3 | ImageNet | 78.80 | 57.17 ${\textcolor{green}{(59.58)}}$ | 78.12                                | 78.81 |
+|             | SqueezeNext | ImageNet | 69.38 | -                                    | 66.23 ${{(66.23)}}$                  | 69.27 |
+|             | ShuffleNet  | ImageNet | 65.07 | -                                    | 60.71 ${\textcolor{green}{(60.85)}}$ | 64.87 |
 | DSG-QAT     | ResNet18    | ImageNet | 71.47 | 62.18                                | 71.12                                | 71.54 |
 |             | ResNet50    | ImageNet | 77.72 | 71.96                                | 77.25                                | 77.64 |
 |             | ShuffleNet  | ImageNet | 65.07 | 29.71                                | 61.37                                | 64.76 |
 |             | MobileNetV2 | ImageNet | 71.88 | 60.46                                | 71.48                                | 72.90 |
 |             | InceptionV3 | ImageNet | 78.80 | 72.01                                | 78.60                                | 78.94 |
 
-<font size=2>* DSG-PTQ denotes DSG-PTQ$^1$ in manuscript</font>
+* DSG-PTQ denotes DSG-PTQ$^1$ in manuscript
 
 ### 5 Acknowledgement
 
