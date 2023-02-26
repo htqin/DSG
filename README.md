@@ -92,7 +92,7 @@ The following are the results of our DSG. We also provide models quantized by DS
 
 | Scheme      | Model       | Dataset  | FP32  | W4A4               | W6A6               | W8A8  |
 | ----------- | ----------- | -------- | ----- | ------------------------------------ | ------------------------------------ | ----- |
-| DSG-PTQ$^*$ | ResNet18    | ImageNet | 71.47 | 39.90 ${\textcolor{green}{(40.41)}}$ | 70.46                                | 71.49 |
+| DSG-PTQ* | ResNet18    | ImageNet | 71.47 | 39.90 ${\textcolor{green}{(40.41)}}$ | 70.46                                | 71.49 |
 |             | ResNet50    | ImageNet | 77.72 | 56.12 ${\textcolor{green}{(56.36)}}$ | 76.90                                | 77.72 |
 |             | InceptionV3 | ImageNet | 78.80 | 57.17 ${\textcolor{green}{(59.58)}}$ | 78.12                                | 78.81 |
 |             | SqueezeNext | ImageNet | 69.38 | -                                    | 66.23 ${{(66.23)}}$                  | 69.27 |
@@ -103,7 +103,7 @@ The following are the results of our DSG. We also provide models quantized by DS
 |             | MobileNetV2 | ImageNet | 71.88 | 60.46                                | 71.48                                | 72.90 |
 |             | InceptionV3 | ImageNet | 78.80 | 72.01                                | 78.60                                | 78.94 |
 
-* DSG-PTQ denotes DSG-PTQ$^1$ in manuscript
+\* DSG-PTQ denotes DSG-PTQ^1 in manuscript
 
 ### 5 Acknowledgement
 
